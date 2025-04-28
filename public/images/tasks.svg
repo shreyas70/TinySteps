@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="200" cy="150" r="120" fill="url(#gradient1)" fill-opacity="0.1"/>
+  
+  <!-- Task List -->
+  <rect x="220" y="60" width="140" height="180" rx="10" fill="white" stroke="#6B46C1" stroke-width="2"/>
+  <rect x="220" y="60" width="140" height="30" rx="10" fill="#6B46C1"/>
+  
+  <!-- Task Items -->
+  <circle cx="240" cy="120" r="8" fill="#10B981"/>
+  <line x1="260" y1="120" x2="340" y2="120" stroke="#4B5563" stroke-width="2"/>
+  
+  <circle cx="240" cy="150" r="8" fill="#10B981"/>
+  <line x1="260" y1="150" x2="320" y2="150" stroke="#4B5563" stroke-width="2"/>
+  
+  <circle cx="240" cy="180" r="8" fill="#D1D5DB"/>
+  <line x1="260" y1="180" x2="330" y2="180" stroke="#4B5563" stroke-width="2"/>
+  
+  <!-- Person -->
+  <circle cx="120" cy="140" r="30" fill="#6B46C1"/> <!-- Head -->
+  <path d="M120 180 L120 240" stroke="#6B46C1" stroke-width="8" stroke-linecap="round"/> <!-- Body -->
+  <path d="M120 200 L90 230" stroke="#6B46C1" stroke-width="8" stroke-linecap="round"/> <!-- Left Arm -->
+  <path d="M120 200 L150 220" stroke="#6B46C1" stroke-width="8" stroke-linecap="round"/> <!-- Right Arm -->
+  <path d="M120 240 L100 280" stroke="#6B46C1" stroke-width="8" stroke-linecap="round"/> <!-- Left Leg -->
+  <path d="M120 240 L140 280" stroke="#6B46C1" stroke-width="8" stroke-linecap="round"/> <!-- Right Leg -->
+  
+  <!-- Checkmark Animation -->
+  <path d="M150 220 L160 230 L180 210" stroke="#10B981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="320" cy="90" r="4" fill="#3B82F6"/>
+  <circle cx="340" cy="90" r="4" fill="#3B82F6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6B46C1"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg> 
